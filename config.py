@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DIALOG360_API_KEY = os.getenv("DIALOG360_API_KEY", "")
-WHATSAPP_NUMBER = os.getenv("WHATSAPP_NUMBER", "")
+DIALOG360_API_KEY = os.getenv("D360_API_KEY", "")
+WHATSAPP_NUMBER = os.getenv("D360_WHATSAPP_NUMBER", "")
 GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID", "")
 GOOGLE_CREDENTIALS_JSON = os.getenv("GOOGLE_CREDENTIALS_JSON", "")
 CONTRACTOR_NAME = os.getenv("CONTRACTOR_NAME", "Your Contractor")
